@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QS5sMmXTuHA=",
+  "success": true,
+  "projectFilePath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/lburbano/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

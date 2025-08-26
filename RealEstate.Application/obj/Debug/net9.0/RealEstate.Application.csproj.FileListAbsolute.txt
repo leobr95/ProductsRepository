@@ -1,0 +1,15 @@
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/bin/Debug/net9.0/RealEstate.Application.deps.json
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/bin/Debug/net9.0/RealEstate.Application.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/bin/Debug/net9.0/RealEstate.Application.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/bin/Debug/net9.0/RealEstate.Domain.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/bin/Debug/net9.0/RealEstate.Domain.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.csproj.AssemblyReference.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.AssemblyInfoInputs.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.AssemblyInfo.cs
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.csproj.CoreCompileInputs.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEsta.ABD55878.Up2Date
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/refint/RealEstate.Application.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/RealEstate.Application.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/Debug/net9.0/ref/RealEstate.Application.dll

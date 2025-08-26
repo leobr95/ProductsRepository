@@ -1,0 +1,17 @@
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Infrastructure.deps.json
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Infrastructure.runtimeconfig.json
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Infrastructure.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Infrastructure.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Domain.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/bin/Debug/net9.0/RealEstate.Domain.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.csproj.AssemblyReference.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.AssemblyInfoInputs.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.AssemblyInfo.cs
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEsta.54FC12BD.Up2Date
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/refint/RealEstate.Infrastructure.dll
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.pdb
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/RealEstate.Infrastructure.genruntimeconfig.cache
+/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/Debug/net9.0/ref/RealEstate.Infrastructure.dll
