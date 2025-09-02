@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.Api</name>
+    </assembly>
+    <members>
+        <member name="M:RealEstate.Controllers.ProductsController.GetAll(System.String,System.Threading.CancellationToken)">
+            <summary>Get all products (optional search by name)</summary>
+            <param name="q">Search by product name (contains)</param>
+        </member>
+        <member name="M:RealEstate.Controllers.ProductsController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>Get product by id</summary>
+        </member>
+        <member name="M:RealEstate.Controllers.ProductsController.Create(RealEstate.Application.DTOs.ProductCreateDto,System.Threading.CancellationToken)">
+            <summary>Create product</summary>
+        </member>
+        <member name="M:RealEstate.Controllers.ProductsController.Update(System.Int32,RealEstate.Application.DTOs.ProductUpdateDto,System.Threading.CancellationToken)">
+            <summary>Update product</summary>
+        </member>
+        <member name="M:RealEstate.Controllers.ProductsController.Delete(System.Int32,System.Threading.CancellationToken)">
+            <summary>Delete product</summary>
+        </member>
+    </members>
+</doc>

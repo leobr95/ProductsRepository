@@ -9,3 +9,15 @@
 /Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/obj/Debug/net9.0/refint/RealEstate.Domain.dll
 /Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.pdb
 /Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/obj/Debug/net9.0/ref/RealEstate.Domain.dll
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/bin/Debug/net9.0/RealEstate.Domain.deps.json
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/bin/Debug/net9.0/RealEstate.Domain.dll
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/bin/Debug/net9.0/RealEstate.Domain.pdb
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.AssemblyInfoInputs.cache
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.AssemblyInfo.cs
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.csproj.CoreCompileInputs.cache
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.sourcelink.json
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.dll
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/refint/RealEstate.Domain.dll
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/RealEstate.Domain.pdb
+/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/Debug/net9.0/ref/RealEstate.Domain.dll

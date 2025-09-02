@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Api/RealEstate.Api.csproj": {}
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Api/RealEstate.Api.csproj": {}
   },
   "projects": {
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Api/RealEstate.Api.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Api/RealEstate.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Api/RealEstate.Api.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Api/RealEstate.Api.csproj",
         "projectName": "RealEstate.Api",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Api/RealEstate.Api.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Api/RealEstate.Api.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Api/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj": {
-                "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj"
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj"
               },
-              "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj": {
-                "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj"
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj"
               }
             }
           }
@@ -66,6 +66,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -91,14 +99,14 @@
         }
       }
     },
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj",
         "projectName": "RealEstate.Application",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -113,13 +121,16 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
-                "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj"
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -137,7 +148,15 @@
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             }
           },
           "imports": [
@@ -160,14 +179,14 @@
         }
       }
     },
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj",
         "projectName": "RealEstate.Domain",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -219,14 +238,14 @@
         }
       }
     },
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
         "projectName": "RealEstate.Infrastructure",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -241,8 +260,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
-                "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj"
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj"
+              },
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj"
               }
             }
           }
@@ -278,6 +300,10 @@
               "version": "[9.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[8.0.0, )"
             },

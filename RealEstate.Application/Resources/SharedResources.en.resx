@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, ...</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, ...</value></resheader>
+
+  <data name="Validation.NameRequired" xml:space="preserve"><value>Name is required.</value></data>
+  <data name="Validation.NameMinLength" xml:space="preserve"><value>Name must be at least {0} characters.</value></data>
+  <data name="Validation.NameMaxLength" xml:space="preserve"><value>Name must be at most {0} characters.</value></data>
+  <data name="Validation.PriceMin" xml:space="preserve"><value>Price must be greater than or equal to {0}.</value></data>
+  <data name="Validation.PriceMax" xml:space="preserve"><value>Price must be less than or equal to {0}.</value></data>
+  <data name="Validation.QuantityMin" xml:space="preserve"><value>Quantity must be greater than or equal to {0}.</value></data>
+  <data name="Validation.QuantityMax" xml:space="preserve"><value>Quantity must be less than or equal to {0}.</value></data>
+
+  <data name="Error.NotFound" xml:space="preserve"><value>Resource not found.</value></data>
+</root>

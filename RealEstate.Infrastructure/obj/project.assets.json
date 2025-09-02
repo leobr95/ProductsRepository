@@ -732,6 +732,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -790,6 +803,29 @@
         },
         "build": {
           "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Primitives/9.0.8": {
@@ -1728,6 +1764,22 @@
         },
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
+        }
+      },
+      "RealEstate.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8",
+          "RealEstate.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RealEstate.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealEstate.Application.dll": {}
         }
       },
       "RealEstate.Domain/1.0.0": {
@@ -3254,6 +3306,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Localization.Abstractions/9.0.8": {
+      "sha512": "guqP/5IRbVZ9FibWI7ieIouzB18prqWwKlfhzqF3LY+mqmP9kz1SjnlOrqvapw0C49PUght/3GRQAxDs2AEKOA==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.9.0.8.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Logging/9.0.8": {
       "sha512": "Z/7ze+0iheT7FJeZPqJKARYvyC2bmwu3whbm/48BJjdlGVvgDguoCqJIkI/67NkroTYobd5geai1WheNQvWrgA==",
       "type": "package",
@@ -3397,6 +3468,36 @@
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
         "microsoft.extensions.options.9.0.8.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "sha512": "0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "type": "package",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.ConfigurationExtensions.targets",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net462/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.xml",
+        "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.configurationextensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -5050,6 +5151,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "RealEstate.Application/1.0.0": {
+      "type": "project",
+      "path": "../RealEstate.Application/RealEstate.Application.csproj",
+      "msbuildProject": "../RealEstate.Application/RealEstate.Application.csproj"
+    },
     "RealEstate.Domain/1.0.0": {
       "type": "project",
       "path": "../RealEstate.Domain/RealEstate.Domain.csproj",
@@ -5062,7 +5168,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 9.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "Microsoft.Extensions.Configuration.Binder >= 8.0.0",
+      "Microsoft.Extensions.Options.ConfigurationExtensions >= 8.0.0",
       "MongoDB.Driver >= 3.4.3",
+      "RealEstate.Application >= 1.0.0",
       "RealEstate.Domain >= 1.0.0"
     ]
   },
@@ -5072,11 +5180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
+      "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
       "projectName": "RealEstate.Infrastructure",
-      "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
+      "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/RealEstate.Infrastructure.csproj",
       "packagesPath": "/Users/lburbano/.nuget/packages/",
-      "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Infrastructure/obj/",
+      "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -5091,8 +5199,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
-              "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj"
+            "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {
+              "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj"
+            },
+            "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
+              "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj"
             }
           }
         }
@@ -5128,6 +5239,10 @@
             "version": "[9.0.8, )"
           },
           "Microsoft.Extensions.Configuration.Binder": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.Options.ConfigurationExtensions": {
             "target": "Package",
             "version": "[8.0.0, )"
           },

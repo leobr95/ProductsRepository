@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj": {}
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {}
   },
   "projects": {
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj",
         "projectName": "RealEstate.Application",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/RealEstate.Application.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/RealEstate.Application.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Application/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
@@ -26,13 +26,16 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
-                "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj"
+              "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
+                "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -50,7 +53,15 @@
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.8, )"
             }
           },
           "imports": [
@@ -73,14 +84,14 @@
         }
       }
     },
-    "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj": {
+    "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj",
+        "projectUniqueName": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj",
         "projectName": "RealEstate.Domain",
-        "projectPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/RealEstate.Domain.csproj",
+        "projectPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/RealEstate.Domain.csproj",
         "packagesPath": "/Users/lburbano/.nuget/packages/",
-        "outputPath": "/Users/lburbano/Documents/MillionTechnicalTest/RealEstate.Domain/obj/",
+        "outputPath": "/Users/lburbano/Documents/PLATEC/PruebaTecnicaPlatec/RealEstate.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lburbano/.nuget/NuGet/NuGet.Config"
